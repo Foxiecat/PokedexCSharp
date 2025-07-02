@@ -18,10 +18,8 @@ public class Program
 
             builder.Services.AddControllers();
             
-            builder.Host.UseSerilog((context, configuration) =>
-            {
-                configuration.ReadFrom.Configuration(context.Configuration);
-            });
+            builder.Host.UseSerilog((context, configuration) => 
+                configuration.ReadFrom.Configuration(context.Configuration));
             
             builder.Services.AddOpenApi();
 
