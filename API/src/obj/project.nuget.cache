@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "D7N6C+8G4nM=",
+  "success": true,
+  "projectFilePath": "/home/foxiecat/Projects/Backend/PokedexCSharp/API/src/src.csproj",
+  "expectedPackageFiles": [
+    "/home/foxiecat/.nuget/packages/microsoft.aspnetcore.openapi/9.0.5/microsoft.aspnetcore.openapi.9.0.5.nupkg.sha512",
+    "/home/foxiecat/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/home/foxiecat/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.5/microsoft.aspnetcore.app.ref.9.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
