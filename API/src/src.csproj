@@ -20,4 +20,9 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Configuration\" />
+      <Folder Include="Features\" />
+    </ItemGroup>
+
 </Project>

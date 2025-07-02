@@ -1,6 +1,6 @@
 @src_HostAddress = http://localhost:5287
 
-GET {{src_HostAddress}}/weatherforecast/
+GET {{src_HostAddress}}/
 Accept: application/json
 
 ###
