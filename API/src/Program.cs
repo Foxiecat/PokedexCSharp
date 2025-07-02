@@ -1,5 +1,6 @@
 using Scalar.AspNetCore;
 using Serilog;
+using src.Middleware;
 
 namespace src;
 
@@ -17,6 +18,7 @@ public class Program
             // Add services to the container.
 
             builder.Services.AddControllers();
+            builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
             
             builder.Host.UseSerilog((context, configuration) => 
                 configuration.ReadFrom.Configuration(context.Configuration));
@@ -31,14 +33,12 @@ public class Program
                 app.MapOpenApi();
                 app.MapScalarApiReference();
             }
-
+            
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
-
-
+            app.UseExceptionHandler();
+            
             app.MapControllers();
-
             app.Run();
         }
         catch (Exception e)

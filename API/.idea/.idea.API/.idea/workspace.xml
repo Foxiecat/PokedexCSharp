@@ -9,15 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cb8e8cb-7532-4b19-883a-5bcbed90d484" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Middleware/GlobalExceptionHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllers/WeatherForecastController.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/Debug/net9.0/src.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net9.0/src.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/obj/Debug/net9.0/src.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net9.0/src.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/src.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/src.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///home/foxiecat/Projects/Backend/PokedexCSharp/API/src/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/foxiecat/Projects/Backend/PokedexCSharp/API/src/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/foxiecat/Projects/Backend/PokedexCSharp/API/src/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -127,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1751449232369</updated>
       <workItem from="1751449234315" duration="160000" />
-      <workItem from="1751449404038" duration="994000" />
+      <workItem from="1751449404038" duration="2030000" />
     </task>
     <task id="LOCAL-00001" summary="Created API solution">
       <option name="closed" value="true" />
@@ -145,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751449947002</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added try catch finally for logging with Serilog">
+      <option name="closed" value="true" />
+      <created>1751450554289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751450554289</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Shortened">
+      <option name="closed" value="true" />
+      <created>1751450645563</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751450645563</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +168,9 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Created API solution" />
     <MESSAGE value="Added NuGet Packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added NuGet Packages" />
+    <MESSAGE value="Added try catch finally for logging with Serilog" />
+    <MESSAGE value="Shortened" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shortened" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
