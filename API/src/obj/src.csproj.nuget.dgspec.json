@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/foxiecat/Projects/Backend/PokedexCSharp/API/src/src.csproj": {}
+    "/home/foxiecat/Dev/Backend/PokedexCSharp/API/src/src.csproj": {}
   },
   "projects": {
-    "/home/foxiecat/Projects/Backend/PokedexCSharp/API/src/src.csproj": {
+    "/home/foxiecat/Dev/Backend/PokedexCSharp/API/src/src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/foxiecat/Projects/Backend/PokedexCSharp/API/src/src.csproj",
+        "projectUniqueName": "/home/foxiecat/Dev/Backend/PokedexCSharp/API/src/src.csproj",
         "projectName": "src",
-        "projectPath": "/home/foxiecat/Projects/Backend/PokedexCSharp/API/src/src.csproj",
+        "projectPath": "/home/foxiecat/Dev/Backend/PokedexCSharp/API/src/src.csproj",
         "packagesPath": "/home/foxiecat/.nuget/packages/",
-        "outputPath": "/home/foxiecat/Projects/Backend/PokedexCSharp/API/src/obj/",
+        "outputPath": "/home/foxiecat/Dev/Backend/PokedexCSharp/API/src/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/foxiecat/.nuget/NuGet/NuGet.Config"

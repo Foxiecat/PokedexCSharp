@@ -1,5 +1,7 @@
 using Scalar.AspNetCore;
 using Serilog;
+using src.Features.User;
+using src.Features.User.Interfaces;
 using src.Middleware;
 
 namespace src;
@@ -18,6 +20,7 @@ public class Program
             // Add services to the container.
 
             builder.Services.AddControllers();
+            
             builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
             
             builder.Host.UseSerilog((context, configuration) => 
@@ -36,7 +39,6 @@ public class Program
             
             app.UseHttpsRedirection();
             app.UseAuthorization();
-            app.UseExceptionHandler();
             
             app.MapControllers();
             app.Run();
@@ -47,6 +49,7 @@ public class Program
         }
         finally
         {
+            Console.WriteLine("\nClosing...");
             Log.CloseAndFlush();
         }
     }

@@ -9,9 +9,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cb8e8cb-7532-4b19-883a-5bcbed90d484" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Middleware/GlobalExceptionHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Features/User/DTOs/UserRequest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Features/User/DTOs/UserResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Features/User/Interfaces/IUserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Features/User/Interfaces/IUserService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Features/User/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Features/User/UserController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Features/User/UserRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Features/User/UserService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.API/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/Debug/net9.0/src.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net9.0/src.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/Debug/net9.0/src.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net9.0/src.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/Debug/net9.0/src.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net9.0/src.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/Debug/net9.0/src.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/Debug/net9.0/src.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obj/src.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/obj/src.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/src/src.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +45,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///home/foxiecat/Projects/Backend/PokedexCSharp/API/src/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/foxiecat/Projects/Backend/PokedexCSharp/API/src/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/foxiecat/Projects/Backend/PokedexCSharp/API/src/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///home/foxiecat/Projects/Backend/PokedexCSharp/API/src/obj/project.assets.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -38,22 +57,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.src: http.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.src: http.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.src: http">
     <configuration name="src: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/src/src.csproj" />
@@ -122,7 +141,8 @@
       <option name="presentableId" value="Default" />
       <updated>1751449232369</updated>
       <workItem from="1751449234315" duration="160000" />
-      <workItem from="1751449404038" duration="2030000" />
+      <workItem from="1751449404038" duration="2395000" />
+      <workItem from="1752580481967" duration="2962000" />
     </task>
     <task id="LOCAL-00001" summary="Created API solution">
       <option name="closed" value="true" />
@@ -156,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751450645563</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Created an exception handler">
+      <option name="closed" value="true" />
+      <created>1751451458490</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751451458490</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +198,8 @@
     <MESSAGE value="Added NuGet Packages" />
     <MESSAGE value="Added try catch finally for logging with Serilog" />
     <MESSAGE value="Shortened" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shortened" />
+    <MESSAGE value="Created an exception handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created an exception handler" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
